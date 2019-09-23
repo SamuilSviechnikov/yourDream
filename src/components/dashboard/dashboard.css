@@ -1,0 +1,16 @@
+.pl{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.inner{
+  display: flex;
+  justify-content: space-between;
+}
+@media(max-width: 600px){
+  .pl{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+}
